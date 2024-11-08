@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header{
+    width: 100%;
+     background-image: url(/Image/hospital-letters.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+    background-size: cover;
+    color: black;
+
+}
+
+.nav-container{
+    width: 80%;
+   text-align: center;
+   margin: 0 auto 0 auto;
+}
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none; 
+    color: red;
+}
+
+.home{
+    width: 100%;
+    height: 70vh;
+    Background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),  url(/Image/WhatsApp\ Image\ 2024-11-05\ at\ 2.04.28\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.view{
+    width: 80%;
+    margin: 0px auto 0 auto;
+    padding: 150px;
+    color: white;
+}
+
+.new{
+    width: 100%;
+    background-color: lightgreen;
+   
+}
+
+button{
+    width:200px;
+    height:30px ;
+    margin: 20px;
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: rgb(151, 58, 58);
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: o auto 0 auto;
+    padding: 10px;
+    padding-left: 130px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;  
+}
+
+.about{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.services{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: gray;
+}
+.ser, ul{
+    padding: 10px;
+    padding-right:10px ;
+}
+
+.working{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
